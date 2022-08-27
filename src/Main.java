@@ -1,5 +1,16 @@
 public class Main {
     public static void main(String[] args) {
+        task1();
+        task2();
+        task3();
+        task4();
+        task5();
+        task6();
+        task7();
+        task8();
+    }
+
+    private static void task1() {
         System.out.println("Задача 1");
         int hz = 10;
         byte a = 1;
@@ -8,14 +19,19 @@ public class Main {
         long d = 1;
         float e = 1f;
         double f = 1;
-        System.out.println("Значение переменной  a с типом  byte равно " + a );
-        System.out.println("Значение переменной  b с типом  short равно " + b );
-        System.out.println("Значение переменной  c с типом  int равно " + c );
-        System.out.println("Значение переменной  d с типом  long равно " + d );
-        System.out.println("Значение переменной  e с типом  float равно " + e );
-        System.out.println("Значение переменной  f с типом  double равно " + f );
-        System.out.println("Значение переменной  hz с типом  double равно " + hz );
+        System.out.println("Значение переменной  a с типом  byte равно " + a);
+        System.out.println("Значение переменной  b с типом  short равно " + b);
+        System.out.println("Значение переменной  c с типом  int равно " + c);
+        System.out.println("Значение переменной  d с типом  long равно " + d);
+        System.out.println("Значение переменной  e с типом  float равно " + e);
+        System.out.println("Значение переменной  f с типом  double равно " + f);
+        System.out.println("Значение переменной  hz с типом  double равно " + hz);
+        System.out.println();
+    }
+
+    private static void task2() {
         System.out.println("Задача 2");
+        int hz = 10;
         float aa = 27.12f;
         long bb = 987_678_965_549L;
         float cc = 2.786f;
@@ -32,6 +48,10 @@ public class Main {
         System.out.println(gg);
         System.out.println(hh);
         System.out.println(hzHz);
+        System.out.println();
+    }
+
+    private static void task3() {
         System.out.println("Задача 3");
         byte teacher1 = 23;
         byte teacher2 = 27;
@@ -40,7 +60,14 @@ public class Main {
         int papper = 480;
         int paperOne = papper / allPeople;
         System.out.println("На каждого ученика расчитано " + paperOne + " листов бумаги");
+        System.out.println();
+    }
+
+    private static void task4() {
+
         System.out.println("Задача 4");
+
+
         short all = 16;
         byte time = 2;
         int allTime = all / time;
@@ -56,6 +83,10 @@ public class Main {
         System.out.println("За сутки работы машины произвела бутылок " + bbbb + " штук ");
         System.out.println("За 3 дня работы машины произвела бутылок " + cccc + " штук ");
         System.out.println("За 1 месяц работы машины произвела бутылок " + dddd + " штук ");
+        System.out.println();
+    }
+
+    private static void task5() {
         System.out.println("Задача 5 ");
         int colorAll = 120;
         int colorWhite = 2;
@@ -64,7 +95,11 @@ public class Main {
         int allClases = colorAll / color1Class;
         int whiteClases = allClases * colorWhite;
         int brownClases = allClases * colorBrown;
-        System.out.println("В школе, где " + allClases +"  классов, нужно " + whiteClases + "  банок белой краски и "+ brownClases + " банок коричневой краски ");
+        System.out.println("В школе, где " + allClases + "  классов, нужно " + whiteClases + "  банок белой краски и " + brownClases + " банок коричневой краски ");
+        System.out.println();
+    }
+
+    private static void task6() {
         System.out.println("Задача 6 ");
         short bananas = 80;
         short milk = 105;
@@ -74,6 +109,10 @@ public class Main {
         System.out.println("Вес завтрака в граммах " + breakFast);
         float breakFastKilograms = breakFast / 1000f;
         System.out.println("Вес завтрака в килограммах " + breakFastKilograms);
+        System.out.println();
+    }
+
+    private static void task7() {
         System.out.println("Задача 7 ");
         byte excessWeightKilograms = 7;
         int excessWeightGram = excessWeightKilograms * 1000;
@@ -87,6 +126,10 @@ public class Main {
         System.out.println("Количество дней при похудении на 500г: " + goodDayLostWeight + " дней");
         System.out.println("Количество дней при похудении на 250г: " + badDayLostWeight + " дней");
         System.out.println("Среднее количество дней для похудения: " + averageLostDayWeight + " день");
+        System.out.println();
+    }
+
+    private static void task8() {
         System.out.println("Задача 8 ");
         int salaryOldMasha = 67760;
         int salaryOldDenis = 83690;
@@ -122,7 +165,10 @@ public class Main {
         System.out.println("Маша теперь получает " + salaryNewMashaYear + " рублей" + " Годовой доход вырос на " + salaryDifferenceMasha + " рублей");
         System.out.println("Денис теперь получает " + salaryNewDenisYear + " рублей" + " Годовой доход вырос на " + salaryDifferenceDenis + " рублей");
         System.out.println("Кристина теперь получает " + salaryNewKristinaYear + " рублей" + " Годовой доход вырос на " + salaryDifferenceKristina + " рублей");
-
+        System.out.println();
+        System.out.printf("Кристина теперь получает %d рублей Годовой доход вырос на %d рублей \n", salaryNewKristinaYear, salaryDifferenceKristina);
+        System.out.println("END");
 
     }
+
 }
