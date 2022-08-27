@@ -43,11 +43,11 @@ public class Main {
         System.out.println(aa);
         System.out.println(bb);
         System.out.println(cc);
+        System.out.println(hzHz);
         System.out.println(ee);
         System.out.println(ff);
         System.out.println(gg);
         System.out.println(hh);
-        System.out.println(hzHz);
         System.out.println();
     }
 
@@ -79,11 +79,14 @@ public class Main {
         int bbbb = bbb * allTime;
         int cccc = ccc * allTime;
         int dddd = ddd * allTime;
-        System.out.println("За 20 минут работы машины произвела бутылок " + aaaa + " штук ");
-        System.out.println("За сутки работы машины произвела бутылок " + bbbb + " штук ");
-        System.out.println("За 3 дня работы машины произвела бутылок " + cccc + " штук ");
-        System.out.println("За 1 месяц работы машины произвела бутылок " + dddd + " штук ");
-        System.out.println();
+        System.out.printf(" За 20 минут работы машины произвела бутылок %d штук\n" +
+                " За сутки работы машины произвела бутылок %d штук\n" +
+                " За 3 дня работы машины произвела бутылок %d штук\n" +
+                " За 1 месяц работы машины произвела бутылок %d штук\n", aaaa, bbbb, cccc, dddd);
+        //System.out.println("За сутки работы машины произвела бутылок " + bbbb + " штук ");
+        //System.out.println("За 3 дня работы машины произвела бутылок " + cccc + " штук ");
+        // System.out.println("За 1 месяц работы машины произвела бутылок " + dddd + " штук ");
+        //System.out.println();
     }
 
     private static void task5() {
@@ -95,7 +98,7 @@ public class Main {
         int allClases = colorAll / color1Class;
         int whiteClases = allClases * colorWhite;
         int brownClases = allClases * colorBrown;
-        System.out.println("В школе, где " + allClases + "  классов, нужно " + whiteClases + "  банок белой краски и " + brownClases + " банок коричневой краски ");
+        System.out.printf("В школе, где %d  классов, нужно %d  банок белой краски и %d банок коричневой краски \n", allClases, whiteClases, brownClases);
         System.out.println();
     }
 
