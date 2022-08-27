@@ -86,7 +86,7 @@ public class Main {
         //System.out.println("За сутки работы машины произвела бутылок " + bbbb + " штук ");
         //System.out.println("За 3 дня работы машины произвела бутылок " + cccc + " штук ");
         // System.out.println("За 1 месяц работы машины произвела бутылок " + dddd + " штук ");
-        //System.out.println();
+        System.out.println();
     }
 
     private static void task5() {
